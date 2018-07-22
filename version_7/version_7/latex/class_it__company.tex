@@ -1,0 +1,415 @@
+\hypertarget{class_it__company}{}\section{It\+\_\+company Class Reference}
+\label{class_it__company}\index{It\+\_\+company@{It\+\_\+company}}
+
+
+{\ttfamily \#include $<$It\+\_\+company.\+h$>$}
+
+
+
+Collaboration diagram for It\+\_\+company\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{class_it__company__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_it__company_a586ce8103147bcb474965fbe92b029ae}{It\+\_\+company} ()
+\item 
+\hyperlink{class_it__company_aef3374e7fe0caae3e395e18418200112}{It\+\_\+company} (std\+::string \hyperlink{class_it__company_a99894304639dab6b416f697dc7e81d52}{name}, std\+::vector$<$ std\+::string $>$ \hyperlink{main_8cpp_a5ea078e5bfa9aefe80362a0a1a33edce}{vacancies}, int \hyperlink{class_it__company_ac48dbef2db2cad83837c89efdc69b9c9}{cur\+Value\+Of\+Workers})
+\item 
+\hyperlink{class_it__company_adbd662e9e7bc67642283301274a9326b}{It\+\_\+company} (\hyperlink{class_it__company}{It\+\_\+company} \&s\+It\+\_\+company)
+\item 
+\hyperlink{class_it__company_abea4fe4b9e6229c4b7e84881cf124975}{$\sim$\+It\+\_\+company} ()
+\item 
+std\+::string \hyperlink{class_it__company_a83fff670c4a7271486f9632db1bf4d77}{get\+Name} (void) const
+\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{class_it__company_a292596bb863a09f2983cb955979a8bb9}{get\+Vac\+List} (void) const
+\item 
+int \hyperlink{class_it__company_aadb84a911a10ad83f6e9a84558a1d4df}{get\+Cur\+Value\+Of\+Workers} (void) const
+\item 
+void \hyperlink{class_it__company_a079be9a566c94860e31acdb0c2953536}{set\+Vac\+List} (std\+::vector$<$ std\+::string $>$ vl)
+\item 
+void \hyperlink{class_it__company_ae06d651e9611d19f02bc1c7f29f2e988}{set\+Cur\+Value\+Of\+Workers} (int cur)
+\item 
+void \hyperlink{class_it__company_a57d8e8056fb6753cef0a6acd80a801dd}{company\+Working} ()
+\item 
+\hyperlink{class_it__company}{It\+\_\+company} \& \hyperlink{class_it__company_ae83add85a00be1e24cdce48aa72678de}{operator++} ()
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static const int \hyperlink{class_it__company_a11e4104cfd2c51f89f9d10b290c8eaaa}{get\+Max\+Value\+Of\+Workers} (void)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \hyperlink{class_technical__manager}{Technical\+\_\+manager} $>$ \hyperlink{class_it__company_af2285094fb07bcf0a9f3a4c1d8a407d3}{technical\+\_\+manager}
+\item 
+std\+::vector$<$ \hyperlink{class_hr__manager}{Hr\+\_\+manager} $>$ \hyperlink{class_it__company_ae0e3f81754b1433c6dfb5ebe96f620d1}{hr\+\_\+manager}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_technical__manager}{Technical\+\_\+manager} $\ast$ \hyperlink{class_it__company_aa0b755bdb8d21b72bc42403b90b62898}{get\+Tech\+Man\+For\+Work} (void)
+\item 
+void \hyperlink{class_it__company_ab5f464351646bc6458640391f5eab298}{preparing\+Vacancies\+And\+Tests} ()
+\item 
+void \hyperlink{class_it__company_aead10e44d7215787e8e532e2e0463d0d}{choosing\+Candidates} ()
+\item 
+void \hyperlink{class_it__company_aaca00d2170e5b58ec725a35afb0f4b59}{candidate\+Working} (int time, std\+::vector$<$ std\+::vector$<$ std\+::string $>$$>$ \&all\+Answers, std\+::multimap$<$ int, int $>$ \&cand\+Index)
+\item 
+void \hyperlink{class_it__company_a2c7a94d7f82fb700c0d1f369423ad45f}{testing} (std\+::vector$<$ std\+::vector$<$ std\+::string $>$$>$ \&all\+Answers, std\+::multimap$<$ int, int $>$ \&cand\+Index)
+\item 
+void \hyperlink{class_it__company_a0d05d1b25d00b221bbb66e57332dea08}{interview} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const std\+::string \hyperlink{class_it__company_a99894304639dab6b416f697dc7e81d52}{name}
+\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{class_it__company_a06d700346a5bcd94c1f265f3bb65143f}{vacancy\+List}
+\item 
+int \hyperlink{class_it__company_ac48dbef2db2cad83837c89efdc69b9c9}{cur\+Value\+Of\+Workers}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const int \hyperlink{class_it__company_ac71fd3642622747e9e543b5a193ba525}{max\+Value\+Of\+Workers} = 3
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \hyperlink{class_it__company_a962e1dda6d2c3075501e63a8d62693f7}{operator$<$$<$} (std\+::ostream \&stream, \hyperlink{class_it__company}{It\+\_\+company} itcompany)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_it__company_a586ce8103147bcb474965fbe92b029ae}{}\label{class_it__company_a586ce8103147bcb474965fbe92b029ae} 
+\index{It\+\_\+company@{It\+\_\+company}!It\+\_\+company@{It\+\_\+company}}
+\index{It\+\_\+company@{It\+\_\+company}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{It\+\_\+company()}{It\_company()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily It\+\_\+company\+::\+It\+\_\+company (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_it__company_aef3374e7fe0caae3e395e18418200112}{}\label{class_it__company_aef3374e7fe0caae3e395e18418200112} 
+\index{It\+\_\+company@{It\+\_\+company}!It\+\_\+company@{It\+\_\+company}}
+\index{It\+\_\+company@{It\+\_\+company}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{It\+\_\+company()}{It\_company()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily It\+\_\+company\+::\+It\+\_\+company (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{std\+::vector$<$ std\+::string $>$}]{vacancies,  }\item[{int}]{cur\+Value\+Of\+Workers }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_it__company_adbd662e9e7bc67642283301274a9326b}{}\label{class_it__company_adbd662e9e7bc67642283301274a9326b} 
+\index{It\+\_\+company@{It\+\_\+company}!It\+\_\+company@{It\+\_\+company}}
+\index{It\+\_\+company@{It\+\_\+company}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{It\+\_\+company()}{It\_company()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily It\+\_\+company\+::\+It\+\_\+company (\begin{DoxyParamCaption}\item[{\hyperlink{class_it__company}{It\+\_\+company} \&}]{s\+It\+\_\+company }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_it__company_abea4fe4b9e6229c4b7e84881cf124975}{}\label{class_it__company_abea4fe4b9e6229c4b7e84881cf124975} 
+\index{It\+\_\+company@{It\+\_\+company}!````~It\+\_\+company@{$\sim$\+It\+\_\+company}}
+\index{````~It\+\_\+company@{$\sim$\+It\+\_\+company}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{$\sim$\+It\+\_\+company()}{~It\_company()}}
+{\footnotesize\ttfamily It\+\_\+company\+::$\sim$\+It\+\_\+company (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_it__company_aaca00d2170e5b58ec725a35afb0f4b59}{}\label{class_it__company_aaca00d2170e5b58ec725a35afb0f4b59} 
+\index{It\+\_\+company@{It\+\_\+company}!candidate\+Working@{candidate\+Working}}
+\index{candidate\+Working@{candidate\+Working}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{candidate\+Working()}{candidateWorking()}}
+{\footnotesize\ttfamily void It\+\_\+company\+::candidate\+Working (\begin{DoxyParamCaption}\item[{int}]{time,  }\item[{std\+::vector$<$ std\+::vector$<$ std\+::string $>$$>$ \&}]{all\+Answers,  }\item[{std\+::multimap$<$ int, int $>$ \&}]{cand\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_aaca00d2170e5b58ec725a35afb0f4b59_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_aaca00d2170e5b58ec725a35afb0f4b59_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_aead10e44d7215787e8e532e2e0463d0d}{}\label{class_it__company_aead10e44d7215787e8e532e2e0463d0d} 
+\index{It\+\_\+company@{It\+\_\+company}!choosing\+Candidates@{choosing\+Candidates}}
+\index{choosing\+Candidates@{choosing\+Candidates}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{choosing\+Candidates()}{choosingCandidates()}}
+{\footnotesize\ttfamily void It\+\_\+company\+::choosing\+Candidates (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_aead10e44d7215787e8e532e2e0463d0d_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_a57d8e8056fb6753cef0a6acd80a801dd}{}\label{class_it__company_a57d8e8056fb6753cef0a6acd80a801dd} 
+\index{It\+\_\+company@{It\+\_\+company}!company\+Working@{company\+Working}}
+\index{company\+Working@{company\+Working}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{company\+Working()}{companyWorking()}}
+{\footnotesize\ttfamily void It\+\_\+company\+::company\+Working (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_a57d8e8056fb6753cef0a6acd80a801dd_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_a57d8e8056fb6753cef0a6acd80a801dd_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_aadb84a911a10ad83f6e9a84558a1d4df}{}\label{class_it__company_aadb84a911a10ad83f6e9a84558a1d4df} 
+\index{It\+\_\+company@{It\+\_\+company}!get\+Cur\+Value\+Of\+Workers@{get\+Cur\+Value\+Of\+Workers}}
+\index{get\+Cur\+Value\+Of\+Workers@{get\+Cur\+Value\+Of\+Workers}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{get\+Cur\+Value\+Of\+Workers()}{getCurValueOfWorkers()}}
+{\footnotesize\ttfamily int It\+\_\+company\+::get\+Cur\+Value\+Of\+Workers (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_aadb84a911a10ad83f6e9a84558a1d4df_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_a11e4104cfd2c51f89f9d10b290c8eaaa}{}\label{class_it__company_a11e4104cfd2c51f89f9d10b290c8eaaa} 
+\index{It\+\_\+company@{It\+\_\+company}!get\+Max\+Value\+Of\+Workers@{get\+Max\+Value\+Of\+Workers}}
+\index{get\+Max\+Value\+Of\+Workers@{get\+Max\+Value\+Of\+Workers}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{get\+Max\+Value\+Of\+Workers()}{getMaxValueOfWorkers()}}
+{\footnotesize\ttfamily static const int It\+\_\+company\+::get\+Max\+Value\+Of\+Workers (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_a11e4104cfd2c51f89f9d10b290c8eaaa_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_a11e4104cfd2c51f89f9d10b290c8eaaa_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_a83fff670c4a7271486f9632db1bf4d77}{}\label{class_it__company_a83fff670c4a7271486f9632db1bf4d77} 
+\index{It\+\_\+company@{It\+\_\+company}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily std\+::string It\+\_\+company\+::get\+Name (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_a83fff670c4a7271486f9632db1bf4d77_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_aa0b755bdb8d21b72bc42403b90b62898}{}\label{class_it__company_aa0b755bdb8d21b72bc42403b90b62898} 
+\index{It\+\_\+company@{It\+\_\+company}!get\+Tech\+Man\+For\+Work@{get\+Tech\+Man\+For\+Work}}
+\index{get\+Tech\+Man\+For\+Work@{get\+Tech\+Man\+For\+Work}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{get\+Tech\+Man\+For\+Work()}{getTechManForWork()}}
+{\footnotesize\ttfamily \hyperlink{class_technical__manager}{Technical\+\_\+manager} $\ast$ It\+\_\+company\+::get\+Tech\+Man\+For\+Work (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_aa0b755bdb8d21b72bc42403b90b62898_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_a292596bb863a09f2983cb955979a8bb9}{}\label{class_it__company_a292596bb863a09f2983cb955979a8bb9} 
+\index{It\+\_\+company@{It\+\_\+company}!get\+Vac\+List@{get\+Vac\+List}}
+\index{get\+Vac\+List@{get\+Vac\+List}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{get\+Vac\+List()}{getVacList()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ It\+\_\+company\+::get\+Vac\+List (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_it__company_a0d05d1b25d00b221bbb66e57332dea08}{}\label{class_it__company_a0d05d1b25d00b221bbb66e57332dea08} 
+\index{It\+\_\+company@{It\+\_\+company}!interview@{interview}}
+\index{interview@{interview}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{interview()}{interview()}}
+{\footnotesize\ttfamily void It\+\_\+company\+::interview (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_a0d05d1b25d00b221bbb66e57332dea08_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_a0d05d1b25d00b221bbb66e57332dea08_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_ae83add85a00be1e24cdce48aa72678de}{}\label{class_it__company_ae83add85a00be1e24cdce48aa72678de} 
+\index{It\+\_\+company@{It\+\_\+company}!operator++@{operator++}}
+\index{operator++@{operator++}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{operator++()}{operator++()}}
+{\footnotesize\ttfamily \hyperlink{class_it__company}{It\+\_\+company} \& It\+\_\+company\+::operator++ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_ae83add85a00be1e24cdce48aa72678de_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_ae83add85a00be1e24cdce48aa72678de_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_ab5f464351646bc6458640391f5eab298}{}\label{class_it__company_ab5f464351646bc6458640391f5eab298} 
+\index{It\+\_\+company@{It\+\_\+company}!preparing\+Vacancies\+And\+Tests@{preparing\+Vacancies\+And\+Tests}}
+\index{preparing\+Vacancies\+And\+Tests@{preparing\+Vacancies\+And\+Tests}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{preparing\+Vacancies\+And\+Tests()}{preparingVacanciesAndTests()}}
+{\footnotesize\ttfamily void It\+\_\+company\+::preparing\+Vacancies\+And\+Tests (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_ab5f464351646bc6458640391f5eab298_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_ab5f464351646bc6458640391f5eab298_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_ae06d651e9611d19f02bc1c7f29f2e988}{}\label{class_it__company_ae06d651e9611d19f02bc1c7f29f2e988} 
+\index{It\+\_\+company@{It\+\_\+company}!set\+Cur\+Value\+Of\+Workers@{set\+Cur\+Value\+Of\+Workers}}
+\index{set\+Cur\+Value\+Of\+Workers@{set\+Cur\+Value\+Of\+Workers}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{set\+Cur\+Value\+Of\+Workers()}{setCurValueOfWorkers()}}
+{\footnotesize\ttfamily void It\+\_\+company\+::set\+Cur\+Value\+Of\+Workers (\begin{DoxyParamCaption}\item[{int}]{cur }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_ae06d651e9611d19f02bc1c7f29f2e988_cgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_a079be9a566c94860e31acdb0c2953536}{}\label{class_it__company_a079be9a566c94860e31acdb0c2953536} 
+\index{It\+\_\+company@{It\+\_\+company}!set\+Vac\+List@{set\+Vac\+List}}
+\index{set\+Vac\+List@{set\+Vac\+List}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{set\+Vac\+List()}{setVacList()}}
+{\footnotesize\ttfamily void It\+\_\+company\+::set\+Vac\+List (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$}]{vl }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_a079be9a566c94860e31acdb0c2953536_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_it__company_a2c7a94d7f82fb700c0d1f369423ad45f}{}\label{class_it__company_a2c7a94d7f82fb700c0d1f369423ad45f} 
+\index{It\+\_\+company@{It\+\_\+company}!testing@{testing}}
+\index{testing@{testing}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{testing()}{testing()}}
+{\footnotesize\ttfamily void It\+\_\+company\+::testing (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ std\+::string $>$$>$ \&}]{all\+Answers,  }\item[{std\+::multimap$<$ int, int $>$ \&}]{cand\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_a2c7a94d7f82fb700c0d1f369423ad45f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_it__company_a2c7a94d7f82fb700c0d1f369423ad45f_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_it__company_a962e1dda6d2c3075501e63a8d62693f7}{}\label{class_it__company_a962e1dda6d2c3075501e63a8d62693f7} 
+\index{It\+\_\+company@{It\+\_\+company}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{stream,  }\item[{\hyperlink{class_it__company}{It\+\_\+company}}]{itcompany }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_it__company_ac48dbef2db2cad83837c89efdc69b9c9}{}\label{class_it__company_ac48dbef2db2cad83837c89efdc69b9c9} 
+\index{It\+\_\+company@{It\+\_\+company}!cur\+Value\+Of\+Workers@{cur\+Value\+Of\+Workers}}
+\index{cur\+Value\+Of\+Workers@{cur\+Value\+Of\+Workers}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{cur\+Value\+Of\+Workers}{curValueOfWorkers}}
+{\footnotesize\ttfamily int It\+\_\+company\+::cur\+Value\+Of\+Workers\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_it__company_ae0e3f81754b1433c6dfb5ebe96f620d1}{}\label{class_it__company_ae0e3f81754b1433c6dfb5ebe96f620d1} 
+\index{It\+\_\+company@{It\+\_\+company}!hr\+\_\+manager@{hr\+\_\+manager}}
+\index{hr\+\_\+manager@{hr\+\_\+manager}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{hr\+\_\+manager}{hr\_manager}}
+{\footnotesize\ttfamily std\+::vector$<$\hyperlink{class_hr__manager}{Hr\+\_\+manager}$>$ It\+\_\+company\+::hr\+\_\+manager}
+
+\hypertarget{class_it__company_ac71fd3642622747e9e543b5a193ba525}{}\label{class_it__company_ac71fd3642622747e9e543b5a193ba525} 
+\index{It\+\_\+company@{It\+\_\+company}!max\+Value\+Of\+Workers@{max\+Value\+Of\+Workers}}
+\index{max\+Value\+Of\+Workers@{max\+Value\+Of\+Workers}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{max\+Value\+Of\+Workers}{maxValueOfWorkers}}
+{\footnotesize\ttfamily const int It\+\_\+company\+::max\+Value\+Of\+Workers = 3\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+\hypertarget{class_it__company_a99894304639dab6b416f697dc7e81d52}{}\label{class_it__company_a99894304639dab6b416f697dc7e81d52} 
+\index{It\+\_\+company@{It\+\_\+company}!name@{name}}
+\index{name@{name}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily const std\+::string It\+\_\+company\+::name\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_it__company_af2285094fb07bcf0a9f3a4c1d8a407d3}{}\label{class_it__company_af2285094fb07bcf0a9f3a4c1d8a407d3} 
+\index{It\+\_\+company@{It\+\_\+company}!technical\+\_\+manager@{technical\+\_\+manager}}
+\index{technical\+\_\+manager@{technical\+\_\+manager}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{technical\+\_\+manager}{technical\_manager}}
+{\footnotesize\ttfamily std\+::vector$<$\hyperlink{class_technical__manager}{Technical\+\_\+manager}$>$ It\+\_\+company\+::technical\+\_\+manager}
+
+\hypertarget{class_it__company_a06d700346a5bcd94c1f265f3bb65143f}{}\label{class_it__company_a06d700346a5bcd94c1f265f3bb65143f} 
+\index{It\+\_\+company@{It\+\_\+company}!vacancy\+List@{vacancy\+List}}
+\index{vacancy\+List@{vacancy\+List}!It\+\_\+company@{It\+\_\+company}}
+\subsubsection{\texorpdfstring{vacancy\+List}{vacancyList}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ It\+\_\+company\+::vacancy\+List\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_it__company_8h}{It\+\_\+company.\+h}\item 
+\hyperlink{_it__company_8cpp}{It\+\_\+company.\+cpp}\end{DoxyCompactItemize}

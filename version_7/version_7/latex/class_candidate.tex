@@ -1,0 +1,345 @@
+\hypertarget{class_candidate}{}\section{Candidate Class Reference}
+\label{class_candidate}\index{Candidate@{Candidate}}
+
+
+{\ttfamily \#include $<$Candidate.\+h$>$}
+
+
+
+Collaboration diagram for Candidate\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{class_candidate__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_candidate_aa2747741fb662af5e8f3d01d1d1a43b6}{Candidate} ()
+\item 
+\hyperlink{class_candidate_a627ea8e00c8e5a4a6d4427a2ac41d41a}{Candidate} (int c\+Level, int w\+Level, bool \hyperlink{class_candidate_ab0a3583b677b47424e2da3f267a8036a}{work})
+\item 
+\hyperlink{class_candidate_a318c0f73f0e3091883c66ef970b3794e}{Candidate} (\hyperlink{class_candidate}{Candidate} \&s\+Candidate)
+\item 
+\hyperlink{class_candidate_a61ad4ae35e7a3ce5e5b91204b55c0b55}{$\sim$\+Candidate} ()
+\item 
+void \hyperlink{class_candidate_afee91575da03a495aad2f45f84ae341c}{prepare\+Resume} (void)
+\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{class_candidate_ab30f3859931c02d8cf69acb49a80c12e}{take\+Test} (std\+::vector$<$ std\+::string $>$ quetions)
+\item 
+void \hyperlink{class_candidate_ace55597a36842de9f9a44abf59be4eb2}{pass\+Interview} (void)
+\item 
+void \hyperlink{class_candidate_a50e84cbce900de9863aefb0f5f4a6f68}{get\+Work} (int time, std\+::vector$<$ std\+::string $>$ quetions, std\+::vector$<$ std\+::string $>$ $\ast$answ)
+\item 
+int \hyperlink{class_candidate_a12bd0777e1b813f1caa683832b28c8f6}{get\+Com\+Level} (void) const
+\item 
+int \hyperlink{class_candidate_aa6971bae134029ced1180e77bc3662ae}{get\+Wor\+Level} (void) const
+\item 
+std\+::string \hyperlink{class_candidate_a10f8f982418cc3db29c6f211a2b24ebf}{get\+Name} (void) const
+\item 
+std\+::string \hyperlink{class_candidate_a31fdda5e5a9cb8abbe3506b5a8bc33ab}{get\+State} (void) const
+\item 
+void \hyperlink{class_candidate_a936a7347b368ef38d994d4aecf4cee0c}{set\+Com\+Level} (int c)
+\item 
+void \hyperlink{class_candidate_ab526dc6819fcfb14821a7ba68c543d34}{set\+Wor\+Level} (int w)
+\item 
+void \hyperlink{class_candidate_ac500f9465747b144c7807b26987c2a3e}{set\+Work} (bool w)
+\item 
+void \hyperlink{class_candidate_a1fcf329a8244281d0ab8dd4100fc2c41}{set\+State} (std\+::string st)
+\item 
+bool \hyperlink{class_candidate_ae246e50a0bd6b9fc03a3579dbd178aad}{existence\+Of\+Work} (void)
+\item 
+bool \hyperlink{class_candidate_a8bfcd5a62801d4b6df95cf2ba29cf89d}{operator!} () const
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_resume}{Resume} \hyperlink{class_candidate_aa377897c9a9bdf566f7f1074f37d9ff1}{resume}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{class_candidate_aa0d4d9afae45b7ce3a3808af2bfba228}{answer\+Question} (std\+::string dificult)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_candidate_a143f4a4644276e9a1914e12c4be8b986}{commutability\+Level}
+\item 
+int \hyperlink{class_candidate_a5c05cc634ba4472a0897d2e669f37963}{worrying\+Level}
+\item 
+bool \hyperlink{class_candidate_ab0a3583b677b47424e2da3f267a8036a}{work}
+\item 
+const std\+::string \hyperlink{class_candidate_ab3c913ca21b7c5239b48e551483bb808}{name}
+\item 
+std\+::string \hyperlink{class_candidate_a521dc0a66f6b111e5c70d64f6ecfbca5}{state}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \hyperlink{class_candidate_ae89bdf092b73462b5a958aae6dbd35f0}{operator$<$$<$} (std\+::ostream \&stream, \hyperlink{class_candidate}{Candidate} candidate)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_candidate_aa2747741fb662af5e8f3d01d1d1a43b6}{}\label{class_candidate_aa2747741fb662af5e8f3d01d1d1a43b6} 
+\index{Candidate@{Candidate}!Candidate@{Candidate}}
+\index{Candidate@{Candidate}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{Candidate()}{Candidate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Candidate\+::\+Candidate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_a627ea8e00c8e5a4a6d4427a2ac41d41a}{}\label{class_candidate_a627ea8e00c8e5a4a6d4427a2ac41d41a} 
+\index{Candidate@{Candidate}!Candidate@{Candidate}}
+\index{Candidate@{Candidate}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{Candidate()}{Candidate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Candidate\+::\+Candidate (\begin{DoxyParamCaption}\item[{int}]{c\+Level,  }\item[{int}]{w\+Level,  }\item[{bool}]{work }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_a318c0f73f0e3091883c66ef970b3794e}{}\label{class_candidate_a318c0f73f0e3091883c66ef970b3794e} 
+\index{Candidate@{Candidate}!Candidate@{Candidate}}
+\index{Candidate@{Candidate}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{Candidate()}{Candidate()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Candidate\+::\+Candidate (\begin{DoxyParamCaption}\item[{\hyperlink{class_candidate}{Candidate} \&}]{s\+Candidate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_a61ad4ae35e7a3ce5e5b91204b55c0b55}{}\label{class_candidate_a61ad4ae35e7a3ce5e5b91204b55c0b55} 
+\index{Candidate@{Candidate}!````~Candidate@{$\sim$\+Candidate}}
+\index{````~Candidate@{$\sim$\+Candidate}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{$\sim$\+Candidate()}{~Candidate()}}
+{\footnotesize\ttfamily Candidate\+::$\sim$\+Candidate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_candidate_a61ad4ae35e7a3ce5e5b91204b55c0b55_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_candidate_aa0d4d9afae45b7ce3a3808af2bfba228}{}\label{class_candidate_aa0d4d9afae45b7ce3a3808af2bfba228} 
+\index{Candidate@{Candidate}!answer\+Question@{answer\+Question}}
+\index{answer\+Question@{answer\+Question}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{answer\+Question()}{answerQuestion()}}
+{\footnotesize\ttfamily std\+::string Candidate\+::answer\+Question (\begin{DoxyParamCaption}\item[{std\+::string}]{dificult }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_candidate_aa0d4d9afae45b7ce3a3808af2bfba228_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_candidate_aa0d4d9afae45b7ce3a3808af2bfba228_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_candidate_ae246e50a0bd6b9fc03a3579dbd178aad}{}\label{class_candidate_ae246e50a0bd6b9fc03a3579dbd178aad} 
+\index{Candidate@{Candidate}!existence\+Of\+Work@{existence\+Of\+Work}}
+\index{existence\+Of\+Work@{existence\+Of\+Work}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{existence\+Of\+Work()}{existenceOfWork()}}
+{\footnotesize\ttfamily bool Candidate\+::existence\+Of\+Work (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_a12bd0777e1b813f1caa683832b28c8f6}{}\label{class_candidate_a12bd0777e1b813f1caa683832b28c8f6} 
+\index{Candidate@{Candidate}!get\+Com\+Level@{get\+Com\+Level}}
+\index{get\+Com\+Level@{get\+Com\+Level}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{get\+Com\+Level()}{getComLevel()}}
+{\footnotesize\ttfamily int Candidate\+::get\+Com\+Level (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_a10f8f982418cc3db29c6f211a2b24ebf}{}\label{class_candidate_a10f8f982418cc3db29c6f211a2b24ebf} 
+\index{Candidate@{Candidate}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily std\+::string Candidate\+::get\+Name (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{class_candidate_a10f8f982418cc3db29c6f211a2b24ebf_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_candidate_a31fdda5e5a9cb8abbe3506b5a8bc33ab}{}\label{class_candidate_a31fdda5e5a9cb8abbe3506b5a8bc33ab} 
+\index{Candidate@{Candidate}!get\+State@{get\+State}}
+\index{get\+State@{get\+State}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{get\+State()}{getState()}}
+{\footnotesize\ttfamily std\+::string Candidate\+::get\+State (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_a50e84cbce900de9863aefb0f5f4a6f68}{}\label{class_candidate_a50e84cbce900de9863aefb0f5f4a6f68} 
+\index{Candidate@{Candidate}!get\+Work@{get\+Work}}
+\index{get\+Work@{get\+Work}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{get\+Work()}{getWork()}}
+{\footnotesize\ttfamily void Candidate\+::get\+Work (\begin{DoxyParamCaption}\item[{int}]{time,  }\item[{std\+::vector$<$ std\+::string $>$}]{quetions,  }\item[{std\+::vector$<$ std\+::string $>$ $\ast$}]{answ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_candidate_a50e84cbce900de9863aefb0f5f4a6f68_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{class_candidate_a50e84cbce900de9863aefb0f5f4a6f68_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_candidate_aa6971bae134029ced1180e77bc3662ae}{}\label{class_candidate_aa6971bae134029ced1180e77bc3662ae} 
+\index{Candidate@{Candidate}!get\+Wor\+Level@{get\+Wor\+Level}}
+\index{get\+Wor\+Level@{get\+Wor\+Level}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{get\+Wor\+Level()}{getWorLevel()}}
+{\footnotesize\ttfamily int Candidate\+::get\+Wor\+Level (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_a8bfcd5a62801d4b6df95cf2ba29cf89d}{}\label{class_candidate_a8bfcd5a62801d4b6df95cf2ba29cf89d} 
+\index{Candidate@{Candidate}!operator"!@{operator"!}}
+\index{operator"!@{operator"!}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{operator"!()}{operator!()}}
+{\footnotesize\ttfamily bool Candidate\+::operator! (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_ace55597a36842de9f9a44abf59be4eb2}{}\label{class_candidate_ace55597a36842de9f9a44abf59be4eb2} 
+\index{Candidate@{Candidate}!pass\+Interview@{pass\+Interview}}
+\index{pass\+Interview@{pass\+Interview}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{pass\+Interview()}{passInterview()}}
+{\footnotesize\ttfamily void Candidate\+::pass\+Interview (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_candidate_ace55597a36842de9f9a44abf59be4eb2_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_candidate_afee91575da03a495aad2f45f84ae341c}{}\label{class_candidate_afee91575da03a495aad2f45f84ae341c} 
+\index{Candidate@{Candidate}!prepare\+Resume@{prepare\+Resume}}
+\index{prepare\+Resume@{prepare\+Resume}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{prepare\+Resume()}{prepareResume()}}
+{\footnotesize\ttfamily void Candidate\+::prepare\+Resume (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_candidate_afee91575da03a495aad2f45f84ae341c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_candidate_afee91575da03a495aad2f45f84ae341c_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_candidate_a936a7347b368ef38d994d4aecf4cee0c}{}\label{class_candidate_a936a7347b368ef38d994d4aecf4cee0c} 
+\index{Candidate@{Candidate}!set\+Com\+Level@{set\+Com\+Level}}
+\index{set\+Com\+Level@{set\+Com\+Level}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{set\+Com\+Level()}{setComLevel()}}
+{\footnotesize\ttfamily void Candidate\+::set\+Com\+Level (\begin{DoxyParamCaption}\item[{int}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_a1fcf329a8244281d0ab8dd4100fc2c41}{}\label{class_candidate_a1fcf329a8244281d0ab8dd4100fc2c41} 
+\index{Candidate@{Candidate}!set\+State@{set\+State}}
+\index{set\+State@{set\+State}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{set\+State()}{setState()}}
+{\footnotesize\ttfamily void Candidate\+::set\+State (\begin{DoxyParamCaption}\item[{std\+::string}]{st }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_ac500f9465747b144c7807b26987c2a3e}{}\label{class_candidate_ac500f9465747b144c7807b26987c2a3e} 
+\index{Candidate@{Candidate}!set\+Work@{set\+Work}}
+\index{set\+Work@{set\+Work}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{set\+Work()}{setWork()}}
+{\footnotesize\ttfamily void Candidate\+::set\+Work (\begin{DoxyParamCaption}\item[{bool}]{w }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_ab526dc6819fcfb14821a7ba68c543d34}{}\label{class_candidate_ab526dc6819fcfb14821a7ba68c543d34} 
+\index{Candidate@{Candidate}!set\+Wor\+Level@{set\+Wor\+Level}}
+\index{set\+Wor\+Level@{set\+Wor\+Level}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{set\+Wor\+Level()}{setWorLevel()}}
+{\footnotesize\ttfamily void Candidate\+::set\+Wor\+Level (\begin{DoxyParamCaption}\item[{int}]{w }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_candidate_ab30f3859931c02d8cf69acb49a80c12e}{}\label{class_candidate_ab30f3859931c02d8cf69acb49a80c12e} 
+\index{Candidate@{Candidate}!take\+Test@{take\+Test}}
+\index{take\+Test@{take\+Test}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{take\+Test()}{takeTest()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Candidate\+::take\+Test (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$}]{quetions }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_candidate_ab30f3859931c02d8cf69acb49a80c12e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_candidate_ab30f3859931c02d8cf69acb49a80c12e_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_candidate_ae89bdf092b73462b5a958aae6dbd35f0}{}\label{class_candidate_ae89bdf092b73462b5a958aae6dbd35f0} 
+\index{Candidate@{Candidate}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{stream,  }\item[{\hyperlink{class_candidate}{Candidate}}]{candidate }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_candidate_a143f4a4644276e9a1914e12c4be8b986}{}\label{class_candidate_a143f4a4644276e9a1914e12c4be8b986} 
+\index{Candidate@{Candidate}!commutability\+Level@{commutability\+Level}}
+\index{commutability\+Level@{commutability\+Level}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{commutability\+Level}{commutabilityLevel}}
+{\footnotesize\ttfamily int Candidate\+::commutability\+Level\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_candidate_ab3c913ca21b7c5239b48e551483bb808}{}\label{class_candidate_ab3c913ca21b7c5239b48e551483bb808} 
+\index{Candidate@{Candidate}!name@{name}}
+\index{name@{name}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily const std\+::string Candidate\+::name\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_candidate_aa377897c9a9bdf566f7f1074f37d9ff1}{}\label{class_candidate_aa377897c9a9bdf566f7f1074f37d9ff1} 
+\index{Candidate@{Candidate}!resume@{resume}}
+\index{resume@{resume}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{resume}{resume}}
+{\footnotesize\ttfamily \hyperlink{class_resume}{Resume} Candidate\+::resume}
+
+\hypertarget{class_candidate_a521dc0a66f6b111e5c70d64f6ecfbca5}{}\label{class_candidate_a521dc0a66f6b111e5c70d64f6ecfbca5} 
+\index{Candidate@{Candidate}!state@{state}}
+\index{state@{state}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily std\+::string Candidate\+::state\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_candidate_ab0a3583b677b47424e2da3f267a8036a}{}\label{class_candidate_ab0a3583b677b47424e2da3f267a8036a} 
+\index{Candidate@{Candidate}!work@{work}}
+\index{work@{work}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{work}{work}}
+{\footnotesize\ttfamily bool Candidate\+::work\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_candidate_a5c05cc634ba4472a0897d2e669f37963}{}\label{class_candidate_a5c05cc634ba4472a0897d2e669f37963} 
+\index{Candidate@{Candidate}!worrying\+Level@{worrying\+Level}}
+\index{worrying\+Level@{worrying\+Level}!Candidate@{Candidate}}
+\subsubsection{\texorpdfstring{worrying\+Level}{worryingLevel}}
+{\footnotesize\ttfamily int Candidate\+::worrying\+Level\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_candidate_8h}{Candidate.\+h}\item 
+\hyperlink{_candidate_8cpp}{Candidate.\+cpp}\end{DoxyCompactItemize}

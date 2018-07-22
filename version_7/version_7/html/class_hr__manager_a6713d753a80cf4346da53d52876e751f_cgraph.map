@@ -1,0 +1,9 @@
+<map id="Hr_manager::~Hr_manager" name="Hr_manager::~Hr_manager">
+<area shape="rect" id="node2" href="$class_hr__manager.html#a579ebdb8579aace02b9c2d2f29051c77" title="Hr_manager::prepareVacancyList" alt="" coords="232,5,447,32"/>
+<area shape="rect" id="node3" href="$class_hr__manager.html#ad172002747343f207758c2ea76d6e480" title="Hr_manager::chooseCandidates" alt="" coords="236,56,443,83"/>
+<area shape="rect" id="node4" href="$class_hr__manager.html#a3315b88815233ab95cd924280086d8a9" title="Hr_manager::operator+" alt="" coords="262,107,417,133"/>
+<area shape="rect" id="node5" href="$class_error.html#a047207c59d0f2bedd19256e011abb80e" title="Error::err" alt="" coords="495,107,568,133"/>
+<area shape="rect" id="node6" href="$class_error.html#a9f20c7656a23e4f4cf1fa600ced37421" title="Error::input" alt="" coords="648,56,735,83"/>
+<area shape="rect" id="node7" href="$class_error.html#a35ab6ad1cad16467c4817cdc8e3ebaea" title="Error::valOfCandidates" alt="" coords="616,107,767,133"/>
+<area shape="rect" id="node8" href="$class_error.html#a5d7c6b97cda36f85a426dd2032c242d3" title="Error::valOfWorkers" alt="" coords="624,157,759,184"/>
+</map>

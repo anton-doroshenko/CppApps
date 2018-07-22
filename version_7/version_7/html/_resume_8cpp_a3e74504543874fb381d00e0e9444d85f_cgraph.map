@@ -1,0 +1,12 @@
+<map id="operator&gt;&gt;" name="operator&gt;&gt;">
+<area shape="rect" id="node2" href="$class_resume.html#a48d6e397c93b741a2fe96ba83f36c40f" title="Resume::setAim" alt="" coords="164,5,283,32"/>
+<area shape="rect" id="node3" href="$class_resume.html#adce5a6624de56751c72f8fe2989da5c9" title="Resume::setCompetence" alt="" coords="139,56,308,83"/>
+<area shape="rect" id="node4" href="$class_resume.html#a2a80b2496ae5bfbf456f4fe6170b9a21" title="Resume::setCourses" alt="" coords="151,107,295,133"/>
+<area shape="rect" id="node5" href="$class_resume.html#a9a76b4b2d010ce5259b9be3ff9fca2b6" title="Resume::setEducation" alt="" coords="146,157,301,184"/>
+<area shape="rect" id="node6" href="$class_resume.html#ae51fc034e53ba1118f3d49b3bd0b1e0f" title="Resume::setLanguages" alt="" coords="144,208,303,235"/>
+<area shape="rect" id="node7" href="$class_resume.html#a3742ddd777e93ad124560cec7da409fa" title="Resume::setExperience" alt="" coords="143,259,304,285"/>
+<area shape="rect" id="node8" href="$class_resume.html#a35e1a0db9143d3fcdce851c2156b9060" title="Resume::setEmail" alt="" coords="159,309,288,336"/>
+<area shape="rect" id="node9" href="$class_resume.html#a97ea87081895f4319f72aec9a3f4fd1c" title="Resume::setPhones" alt="" coords="153,360,293,387"/>
+<area shape="rect" id="node10" href="$class_resume.html#a03adc6528b2ed6302008a249109005a8" title="Resume::setAddress" alt="" coords="151,411,295,437"/>
+<area shape="rect" id="node11" href="$class_resume.html#abc51f92eaaab42d9973693424147a421" title="Resume::setBirthday" alt="" coords="151,461,295,488"/>
+</map>

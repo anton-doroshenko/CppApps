@@ -1,0 +1,162 @@
+\hypertarget{class_test}{}\section{Test Class Reference}
+\label{class_test}\index{Test@{Test}}
+
+
+{\ttfamily \#include $<$Test.\+h$>$}
+
+
+
+Collaboration diagram for Test\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{class_test__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_test_a99f2bbfac6c95612322b0f10e607ebe5}{Test} ()
+\item 
+\hyperlink{class_test_a4b20375118c81a6a0bddbe98f1de464e}{Test} (std\+::string \hyperlink{class_test_a62aead72f049c0462c5b45d5a48b296f}{type}, bool \hyperlink{class_test_a00ac92c896939892dd9e28a5b4b3e5b7}{result})
+\item 
+\hyperlink{class_test_af5be817bd4d65673ab553c7a9d9ddaa8}{Test} (\hyperlink{class_test}{Test} \&s\+Test)
+\item 
+\hyperlink{class_test_a2b0a62f1e667bbe8d8cb18d785bfa991}{$\sim$\+Test} ()
+\item 
+std\+::string \hyperlink{class_test_ae550830721b9cfff6b9251d9b96bd99e}{get\+Type} (void) const
+\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{class_test_ac4d3f0b5a8786de3713e93e46c8b2f97}{get\+Questions} (void) const
+\item 
+void \hyperlink{class_test_a54f6a794a60c3173b67da6f0f2c13b0a}{set\+Type} (std\+::string t)
+\item 
+void \hyperlink{class_test_ac921aece347e57beb4efd8e10a98a2e2}{set\+Result} (bool r)
+\item 
+void \hyperlink{class_test_a114815379828a59a1d3a4ac1750f99bd}{set\+Questions} (std\+::vector$<$ std\+::string $>$ q)
+\item 
+bool \hyperlink{class_test_aafa54c39027462096d9c65c84bf9e976}{success\+Of\+Passing} (void)
+\item 
+\hyperlink{class_test}{Test} \& \hyperlink{class_test_abda6e061511f23c4dfc47b6083ea5fef}{operator+=} (std\+::vector$<$ std\+::string $>$ const \&que)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \hyperlink{class_test_a62aead72f049c0462c5b45d5a48b296f}{type}
+\item 
+bool \hyperlink{class_test_a00ac92c896939892dd9e28a5b4b3e5b7}{result}
+\item 
+std\+::vector$<$ std\+::string $>$ \hyperlink{class_test_a44f8c50d1aa570514abcfcd0663f3df2}{questions}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \hyperlink{class_test_ad6b01dce65f182b44e1dbb82d80d9dff}{operator$<$$<$} (std\+::ostream \&stream, \hyperlink{class_test}{Test} test)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_test_a99f2bbfac6c95612322b0f10e607ebe5}{}\label{class_test_a99f2bbfac6c95612322b0f10e607ebe5} 
+\index{Test@{Test}!Test@{Test}}
+\index{Test@{Test}!Test@{Test}}
+\subsubsection{\texorpdfstring{Test()}{Test()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Test\+::\+Test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_test_a4b20375118c81a6a0bddbe98f1de464e}{}\label{class_test_a4b20375118c81a6a0bddbe98f1de464e} 
+\index{Test@{Test}!Test@{Test}}
+\index{Test@{Test}!Test@{Test}}
+\subsubsection{\texorpdfstring{Test()}{Test()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Test\+::\+Test (\begin{DoxyParamCaption}\item[{std\+::string}]{type,  }\item[{bool}]{result }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_test_af5be817bd4d65673ab553c7a9d9ddaa8}{}\label{class_test_af5be817bd4d65673ab553c7a9d9ddaa8} 
+\index{Test@{Test}!Test@{Test}}
+\index{Test@{Test}!Test@{Test}}
+\subsubsection{\texorpdfstring{Test()}{Test()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Test\+::\+Test (\begin{DoxyParamCaption}\item[{\hyperlink{class_test}{Test} \&}]{s\+Test }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_test_a2b0a62f1e667bbe8d8cb18d785bfa991}{}\label{class_test_a2b0a62f1e667bbe8d8cb18d785bfa991} 
+\index{Test@{Test}!````~Test@{$\sim$\+Test}}
+\index{````~Test@{$\sim$\+Test}!Test@{Test}}
+\subsubsection{\texorpdfstring{$\sim$\+Test()}{~Test()}}
+{\footnotesize\ttfamily Test\+::$\sim$\+Test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_test_ac4d3f0b5a8786de3713e93e46c8b2f97}{}\label{class_test_ac4d3f0b5a8786de3713e93e46c8b2f97} 
+\index{Test@{Test}!get\+Questions@{get\+Questions}}
+\index{get\+Questions@{get\+Questions}!Test@{Test}}
+\subsubsection{\texorpdfstring{get\+Questions()}{getQuestions()}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Test\+::get\+Questions (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_test_ae550830721b9cfff6b9251d9b96bd99e}{}\label{class_test_ae550830721b9cfff6b9251d9b96bd99e} 
+\index{Test@{Test}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Test@{Test}}
+\subsubsection{\texorpdfstring{get\+Type()}{getType()}}
+{\footnotesize\ttfamily std\+::string Test\+::get\+Type (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_test_abda6e061511f23c4dfc47b6083ea5fef}{}\label{class_test_abda6e061511f23c4dfc47b6083ea5fef} 
+\index{Test@{Test}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Test@{Test}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}}
+{\footnotesize\ttfamily \hyperlink{class_test}{Test}\& Test\+::operator+= (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ const \&}]{que }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_test_a114815379828a59a1d3a4ac1750f99bd}{}\label{class_test_a114815379828a59a1d3a4ac1750f99bd} 
+\index{Test@{Test}!set\+Questions@{set\+Questions}}
+\index{set\+Questions@{set\+Questions}!Test@{Test}}
+\subsubsection{\texorpdfstring{set\+Questions()}{setQuestions()}}
+{\footnotesize\ttfamily void Test\+::set\+Questions (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$}]{q }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_test_ac921aece347e57beb4efd8e10a98a2e2}{}\label{class_test_ac921aece347e57beb4efd8e10a98a2e2} 
+\index{Test@{Test}!set\+Result@{set\+Result}}
+\index{set\+Result@{set\+Result}!Test@{Test}}
+\subsubsection{\texorpdfstring{set\+Result()}{setResult()}}
+{\footnotesize\ttfamily void Test\+::set\+Result (\begin{DoxyParamCaption}\item[{bool}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_test_a54f6a794a60c3173b67da6f0f2c13b0a}{}\label{class_test_a54f6a794a60c3173b67da6f0f2c13b0a} 
+\index{Test@{Test}!set\+Type@{set\+Type}}
+\index{set\+Type@{set\+Type}!Test@{Test}}
+\subsubsection{\texorpdfstring{set\+Type()}{setType()}}
+{\footnotesize\ttfamily void Test\+::set\+Type (\begin{DoxyParamCaption}\item[{std\+::string}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_test_aafa54c39027462096d9c65c84bf9e976}{}\label{class_test_aafa54c39027462096d9c65c84bf9e976} 
+\index{Test@{Test}!success\+Of\+Passing@{success\+Of\+Passing}}
+\index{success\+Of\+Passing@{success\+Of\+Passing}!Test@{Test}}
+\subsubsection{\texorpdfstring{success\+Of\+Passing()}{successOfPassing()}}
+{\footnotesize\ttfamily bool Test\+::success\+Of\+Passing (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_test_ad6b01dce65f182b44e1dbb82d80d9dff}{}\label{class_test_ad6b01dce65f182b44e1dbb82d80d9dff} 
+\index{Test@{Test}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Test@{Test}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{stream,  }\item[{\hyperlink{class_test}{Test}}]{test }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_test_a44f8c50d1aa570514abcfcd0663f3df2}{}\label{class_test_a44f8c50d1aa570514abcfcd0663f3df2} 
+\index{Test@{Test}!questions@{questions}}
+\index{questions@{questions}!Test@{Test}}
+\subsubsection{\texorpdfstring{questions}{questions}}
+{\footnotesize\ttfamily std\+::vector$<$std\+::string$>$ Test\+::questions\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_test_a00ac92c896939892dd9e28a5b4b3e5b7}{}\label{class_test_a00ac92c896939892dd9e28a5b4b3e5b7} 
+\index{Test@{Test}!result@{result}}
+\index{result@{result}!Test@{Test}}
+\subsubsection{\texorpdfstring{result}{result}}
+{\footnotesize\ttfamily bool Test\+::result\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_test_a62aead72f049c0462c5b45d5a48b296f}{}\label{class_test_a62aead72f049c0462c5b45d5a48b296f} 
+\index{Test@{Test}!type@{type}}
+\index{type@{type}!Test@{Test}}
+\subsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily std\+::string Test\+::type\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_test_8h}{Test.\+h}\end{DoxyCompactItemize}

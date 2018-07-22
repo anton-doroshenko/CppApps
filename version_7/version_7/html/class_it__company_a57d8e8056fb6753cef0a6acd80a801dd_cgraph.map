@@ -1,0 +1,17 @@
+<map id="It_company::companyWorking" name="It_company::companyWorking">
+<area shape="rect" id="node2" href="$class_it__company.html#ab5f464351646bc6458640391f5eab298" title="It_company::preparingVacancies\lAndTests" alt="" coords="254,52,465,93"/>
+<area shape="rect" id="node6" href="$class_it__company.html#aead10e44d7215787e8e532e2e0463d0d" title="It_company::choosingCandidates" alt="" coords="252,118,467,145"/>
+<area shape="rect" id="node7" href="$class_it__company.html#aaca00d2170e5b58ec725a35afb0f4b59" title="It_company::candidateWorking" alt="" coords="259,169,460,195"/>
+<area shape="rect" id="node10" href="$class_it__company.html#a2c7a94d7f82fb700c0d1f369423ad45f" title="It_company::testing" alt="" coords="291,219,427,246"/>
+<area shape="rect" id="node11" href="$class_it__company.html#a0d05d1b25d00b221bbb66e57332dea08" title="It_company::interview" alt="" coords="286,270,433,297"/>
+<area shape="rect" id="node13" href="$class_error.html#a047207c59d0f2bedd19256e011abb80e" title="Error::err" alt="" coords="323,346,396,373"/>
+<area shape="rect" id="node3" href="$class_it__company.html#a11e4104cfd2c51f89f9d10b290c8eaaa" title="It_company::getMaxValueOf\lWorkers" alt="" coords="531,5,717,47"/>
+<area shape="rect" id="node5" href="$class_it__company.html#aadb84a911a10ad83f6e9a84558a1d4df" title="It_company::getCurValueOf\lWorkers" alt="" coords="533,71,715,112"/>
+<area shape="rect" id="node4" href="$class_it__company.html#a079be9a566c94860e31acdb0c2953536" title="It_company::setVacList" alt="" coords="781,13,940,39"/>
+<area shape="rect" id="node8" href="$class_it__company.html#aa0b755bdb8d21b72bc42403b90b62898" title="It_company::getTechManForWork" alt="" coords="515,219,733,246"/>
+<area shape="rect" id="node9" href="$class_technical__manager.html#acee4360da537c12e758574e58c33481d" title="Technical_manager::\lgetTestForCandidate" alt="" coords="553,153,695,195"/>
+<area shape="rect" id="node12" href="$class_it__company.html#a83fff670c4a7271486f9632db1bf4d77" title="It_company::getName" alt="" coords="549,270,699,297"/>
+<area shape="rect" id="node14" href="$class_error.html#a9f20c7656a23e4f4cf1fa600ced37421" title="Error::input" alt="" coords="581,422,667,449"/>
+<area shape="rect" id="node15" href="$class_error.html#a35ab6ad1cad16467c4817cdc8e3ebaea" title="Error::valOfCandidates" alt="" coords="549,321,699,347"/>
+<area shape="rect" id="node16" href="$class_error.html#a5d7c6b97cda36f85a426dd2032c242d3" title="Error::valOfWorkers" alt="" coords="557,371,691,398"/>
+</map>

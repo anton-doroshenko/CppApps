@@ -1,0 +1,286 @@
+\hypertarget{class_technical__manager}{}\section{Technical\+\_\+manager Class Reference}
+\label{class_technical__manager}\index{Technical\+\_\+manager@{Technical\+\_\+manager}}
+
+
+{\ttfamily \#include $<$Technical\+\_\+manager.\+h$>$}
+
+
+
+Collaboration diagram for Technical\+\_\+manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{class_technical__manager__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_technical__manager_a41ead444e3dc90e801f5393da0494c5f}{Technical\+\_\+manager} ()
+\item 
+\hyperlink{class_technical__manager_a244f241464f3904b738af855d513dc2c}{Technical\+\_\+manager} (std\+::string \hyperlink{class_technical__manager_a614ced849b0c26387b0d2fbb03a9a457}{name}, int r\+Level, int c\+Level)
+\item 
+\hyperlink{class_technical__manager_a9cc85e5534ba09b7fd7cb5c9de3996af}{Technical\+\_\+manager} (\hyperlink{class_technical__manager}{Technical\+\_\+manager} \&s\+Technical\+\_\+manager)
+\item 
+\hyperlink{class_technical__manager_a94825f367005fbf7eb9e27cc2550ad3f}{Technical\+\_\+manager} (std\+::string str)
+\item 
+\hyperlink{class_technical__manager_a661af9604ec1a388e33a20c9497efb71}{$\sim$\+Technical\+\_\+manager} ()
+\item 
+void \hyperlink{class_technical__manager_aba0df90b5aa9389fd90816fe4652c2ad}{prepare\+Test} (std\+::vector$<$ std\+::string $>$ list)
+\item 
+std\+::string \hyperlink{class_technical__manager_aff72b09aef2f2b53f9bc6413242deab6}{check\+Test} (std\+::vector$<$ std\+::string $>$ list\+Of\+Answers)
+\item 
+std\+::string \hyperlink{class_technical__manager_a3e52c05a672894682cf2d4ab69664c1e}{holding\+Interview} (int c\+Level, int w\+Level, std\+::string \hyperlink{class_technical__manager_a614ced849b0c26387b0d2fbb03a9a457}{name})
+\item 
+\hyperlink{class_test}{Test} $\ast$ \hyperlink{class_technical__manager_acee4360da537c12e758574e58c33481d}{get\+Test\+For\+Candidate} (std\+::string competence)
+\item 
+std\+::string \hyperlink{class_technical__manager_a716f0b2db9fa5c134d1f6c08e671ef23}{get\+Name} (void) const
+\item 
+int \hyperlink{class_technical__manager_a301a2d7df8a8762bf416ea16c34ae8a4}{get\+Req\+Level} (void) const
+\item 
+int \hyperlink{class_technical__manager_ab1f2988a3a583f1f5f4860fb2c2b6a2e}{get\+Com\+Level} (void) const
+\item 
+std\+::string \hyperlink{class_technical__manager_a908f8c89d84683b1fdd333a5efc64303}{get\+State} (void) const
+\item 
+void \hyperlink{class_technical__manager_aeec07d833ce7ea6389ccb6ce4a01be6a}{set\+Req\+Level} (int r)
+\item 
+void \hyperlink{class_technical__manager_a1c88a32f65f12e4302a1cab1cf804957}{set\+Com\+Level} (int c)
+\item 
+void \hyperlink{class_technical__manager_a2e562aa89e30f8dd64d3d9e907be18a5}{set\+State} (std\+::string s)
+\item 
+void \hyperlink{class_technical__manager_aab590839882d92cd7c00021500d3fddc}{show\+Position} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \hyperlink{class_test}{Test} $\ast$ $>$ \hyperlink{class_technical__manager_a4bb774e21944be05309197d10dcba54e}{test}
+\item 
+std\+::vector$<$ \hyperlink{class_interview}{Interview} $\ast$ $>$ \hyperlink{class_technical__manager_af5aa30bc5574b94fd694d1927446b0ee}{interview}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const std\+::string \hyperlink{class_technical__manager_a614ced849b0c26387b0d2fbb03a9a457}{name}
+\item 
+int \hyperlink{class_technical__manager_a86c6df435e9fb69acccbf1a8bdc22088}{requirement\+Level}
+\item 
+int \hyperlink{class_technical__manager_a42c180cd359d8c8c61d55aaeefeaf768}{commutability\+Level}
+\item 
+std\+::string \hyperlink{class_technical__manager_a94e93641fd9eb15afba421e2d79ebfce}{state}
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \hyperlink{class_technical__manager_a414b7f00e01c9ea9314ef822f5e6d34d}{operator$<$$<$} (std\+::ostream \&stream, \hyperlink{class_technical__manager}{Technical\+\_\+manager} tmanager)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_technical__manager_a41ead444e3dc90e801f5393da0494c5f}{}\label{class_technical__manager_a41ead444e3dc90e801f5393da0494c5f} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{Technical\+\_\+manager()}{Technical\_manager()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily Technical\+\_\+manager\+::\+Technical\+\_\+manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\hypertarget{class_technical__manager_a244f241464f3904b738af855d513dc2c}{}\label{class_technical__manager_a244f241464f3904b738af855d513dc2c} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{Technical\+\_\+manager()}{Technical\_manager()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily Technical\+\_\+manager\+::\+Technical\+\_\+manager (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{int}]{r\+Level,  }\item[{int}]{c\+Level }\end{DoxyParamCaption})}
+
+\hypertarget{class_technical__manager_a9cc85e5534ba09b7fd7cb5c9de3996af}{}\label{class_technical__manager_a9cc85e5534ba09b7fd7cb5c9de3996af} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{Technical\+\_\+manager()}{Technical\_manager()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily Technical\+\_\+manager\+::\+Technical\+\_\+manager (\begin{DoxyParamCaption}\item[{\hyperlink{class_technical__manager}{Technical\+\_\+manager} \&}]{s\+Technical\+\_\+manager }\end{DoxyParamCaption})}
+
+\hypertarget{class_technical__manager_a94825f367005fbf7eb9e27cc2550ad3f}{}\label{class_technical__manager_a94825f367005fbf7eb9e27cc2550ad3f} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{Technical\+\_\+manager()}{Technical\_manager()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily Technical\+\_\+manager\+::\+Technical\+\_\+manager (\begin{DoxyParamCaption}\item[{std\+::string}]{str }\end{DoxyParamCaption})}
+
+\hypertarget{class_technical__manager_a661af9604ec1a388e33a20c9497efb71}{}\label{class_technical__manager_a661af9604ec1a388e33a20c9497efb71} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!````~Technical\+\_\+manager@{$\sim$\+Technical\+\_\+manager}}
+\index{````~Technical\+\_\+manager@{$\sim$\+Technical\+\_\+manager}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{$\sim$\+Technical\+\_\+manager()}{~Technical\_manager()}}
+{\footnotesize\ttfamily Technical\+\_\+manager\+::$\sim$\+Technical\+\_\+manager (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_technical__manager_a661af9604ec1a388e33a20c9497efb71_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_technical__manager_aff72b09aef2f2b53f9bc6413242deab6}{}\label{class_technical__manager_aff72b09aef2f2b53f9bc6413242deab6} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!check\+Test@{check\+Test}}
+\index{check\+Test@{check\+Test}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{check\+Test()}{checkTest()}}
+{\footnotesize\ttfamily std\+::string Technical\+\_\+manager\+::check\+Test (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$}]{list\+Of\+Answers }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_technical__manager_aff72b09aef2f2b53f9bc6413242deab6_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_technical__manager_ab1f2988a3a583f1f5f4860fb2c2b6a2e}{}\label{class_technical__manager_ab1f2988a3a583f1f5f4860fb2c2b6a2e} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!get\+Com\+Level@{get\+Com\+Level}}
+\index{get\+Com\+Level@{get\+Com\+Level}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{get\+Com\+Level()}{getComLevel()}}
+{\footnotesize\ttfamily int Technical\+\_\+manager\+::get\+Com\+Level (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_technical__manager_a716f0b2db9fa5c134d1f6c08e671ef23}{}\label{class_technical__manager_a716f0b2db9fa5c134d1f6c08e671ef23} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily std\+::string Technical\+\_\+manager\+::get\+Name (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_technical__manager_a301a2d7df8a8762bf416ea16c34ae8a4}{}\label{class_technical__manager_a301a2d7df8a8762bf416ea16c34ae8a4} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!get\+Req\+Level@{get\+Req\+Level}}
+\index{get\+Req\+Level@{get\+Req\+Level}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{get\+Req\+Level()}{getReqLevel()}}
+{\footnotesize\ttfamily int Technical\+\_\+manager\+::get\+Req\+Level (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_technical__manager_a908f8c89d84683b1fdd333a5efc64303}{}\label{class_technical__manager_a908f8c89d84683b1fdd333a5efc64303} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!get\+State@{get\+State}}
+\index{get\+State@{get\+State}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{get\+State()}{getState()}}
+{\footnotesize\ttfamily std\+::string Technical\+\_\+manager\+::get\+State (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_technical__manager_acee4360da537c12e758574e58c33481d}{}\label{class_technical__manager_acee4360da537c12e758574e58c33481d} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!get\+Test\+For\+Candidate@{get\+Test\+For\+Candidate}}
+\index{get\+Test\+For\+Candidate@{get\+Test\+For\+Candidate}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{get\+Test\+For\+Candidate()}{getTestForCandidate()}}
+{\footnotesize\ttfamily \hyperlink{class_test}{Test} $\ast$ Technical\+\_\+manager\+::get\+Test\+For\+Candidate (\begin{DoxyParamCaption}\item[{std\+::string}]{competence }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_technical__manager_acee4360da537c12e758574e58c33481d_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_technical__manager_a3e52c05a672894682cf2d4ab69664c1e}{}\label{class_technical__manager_a3e52c05a672894682cf2d4ab69664c1e} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!holding\+Interview@{holding\+Interview}}
+\index{holding\+Interview@{holding\+Interview}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{holding\+Interview()}{holdingInterview()}}
+{\footnotesize\ttfamily std\+::string Technical\+\_\+manager\+::holding\+Interview (\begin{DoxyParamCaption}\item[{int}]{c\+Level,  }\item[{int}]{w\+Level,  }\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_technical__manager_a3e52c05a672894682cf2d4ab69664c1e_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_technical__manager_aba0df90b5aa9389fd90816fe4652c2ad}{}\label{class_technical__manager_aba0df90b5aa9389fd90816fe4652c2ad} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!prepare\+Test@{prepare\+Test}}
+\index{prepare\+Test@{prepare\+Test}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{prepare\+Test()}{prepareTest()}}
+{\footnotesize\ttfamily void Technical\+\_\+manager\+::prepare\+Test (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$}]{list }\end{DoxyParamCaption})}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_technical__manager_aba0df90b5aa9389fd90816fe4652c2ad_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_technical__manager_aba0df90b5aa9389fd90816fe4652c2ad_icgraph}
+\end{center}
+\end{figure}
+\hypertarget{class_technical__manager_a1c88a32f65f12e4302a1cab1cf804957}{}\label{class_technical__manager_a1c88a32f65f12e4302a1cab1cf804957} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!set\+Com\+Level@{set\+Com\+Level}}
+\index{set\+Com\+Level@{set\+Com\+Level}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{set\+Com\+Level()}{setComLevel()}}
+{\footnotesize\ttfamily void Technical\+\_\+manager\+::set\+Com\+Level (\begin{DoxyParamCaption}\item[{int}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_technical__manager_aeec07d833ce7ea6389ccb6ce4a01be6a}{}\label{class_technical__manager_aeec07d833ce7ea6389ccb6ce4a01be6a} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!set\+Req\+Level@{set\+Req\+Level}}
+\index{set\+Req\+Level@{set\+Req\+Level}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{set\+Req\+Level()}{setReqLevel()}}
+{\footnotesize\ttfamily void Technical\+\_\+manager\+::set\+Req\+Level (\begin{DoxyParamCaption}\item[{int}]{r }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_technical__manager_a2e562aa89e30f8dd64d3d9e907be18a5}{}\label{class_technical__manager_a2e562aa89e30f8dd64d3d9e907be18a5} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!set\+State@{set\+State}}
+\index{set\+State@{set\+State}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{set\+State()}{setState()}}
+{\footnotesize\ttfamily void Technical\+\_\+manager\+::set\+State (\begin{DoxyParamCaption}\item[{std\+::string}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\hypertarget{class_technical__manager_aab590839882d92cd7c00021500d3fddc}{}\label{class_technical__manager_aab590839882d92cd7c00021500d3fddc} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!show\+Position@{show\+Position}}
+\index{show\+Position@{show\+Position}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{show\+Position()}{showPosition()}}
+{\footnotesize\ttfamily void Technical\+\_\+manager\+::show\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_technical__manager_a414b7f00e01c9ea9314ef822f5e6d34d}{}\label{class_technical__manager_a414b7f00e01c9ea9314ef822f5e6d34d} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{stream,  }\item[{\hyperlink{class_technical__manager}{Technical\+\_\+manager}}]{tmanager }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_technical__manager_a42c180cd359d8c8c61d55aaeefeaf768}{}\label{class_technical__manager_a42c180cd359d8c8c61d55aaeefeaf768} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!commutability\+Level@{commutability\+Level}}
+\index{commutability\+Level@{commutability\+Level}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{commutability\+Level}{commutabilityLevel}}
+{\footnotesize\ttfamily int Technical\+\_\+manager\+::commutability\+Level\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_technical__manager_af5aa30bc5574b94fd694d1927446b0ee}{}\label{class_technical__manager_af5aa30bc5574b94fd694d1927446b0ee} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!interview@{interview}}
+\index{interview@{interview}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{interview}{interview}}
+{\footnotesize\ttfamily std\+::vector$<$\hyperlink{class_interview}{Interview}$\ast$$>$ Technical\+\_\+manager\+::interview}
+
+\hypertarget{class_technical__manager_a614ced849b0c26387b0d2fbb03a9a457}{}\label{class_technical__manager_a614ced849b0c26387b0d2fbb03a9a457} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!name@{name}}
+\index{name@{name}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily const std\+::string Technical\+\_\+manager\+::name\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_technical__manager_a86c6df435e9fb69acccbf1a8bdc22088}{}\label{class_technical__manager_a86c6df435e9fb69acccbf1a8bdc22088} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!requirement\+Level@{requirement\+Level}}
+\index{requirement\+Level@{requirement\+Level}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{requirement\+Level}{requirementLevel}}
+{\footnotesize\ttfamily int Technical\+\_\+manager\+::requirement\+Level\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_technical__manager_a94e93641fd9eb15afba421e2d79ebfce}{}\label{class_technical__manager_a94e93641fd9eb15afba421e2d79ebfce} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!state@{state}}
+\index{state@{state}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{state}{state}}
+{\footnotesize\ttfamily std\+::string Technical\+\_\+manager\+::state\hspace{0.3cm}{\ttfamily [private]}}
+
+\hypertarget{class_technical__manager_a4bb774e21944be05309197d10dcba54e}{}\label{class_technical__manager_a4bb774e21944be05309197d10dcba54e} 
+\index{Technical\+\_\+manager@{Technical\+\_\+manager}!test@{test}}
+\index{test@{test}!Technical\+\_\+manager@{Technical\+\_\+manager}}
+\subsubsection{\texorpdfstring{test}{test}}
+{\footnotesize\ttfamily std\+::vector$<$\hyperlink{class_test}{Test}$\ast$$>$ Technical\+\_\+manager\+::test}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_technical__manager_8h}{Technical\+\_\+manager.\+h}\item 
+\hyperlink{_technical__manager_8cpp}{Technical\+\_\+manager.\+cpp}\end{DoxyCompactItemize}

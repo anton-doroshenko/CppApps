@@ -1,0 +1,10 @@
+<map id="Technical_manager::~Technical_manager" name="Technical_manager::~Technical_manager">
+<area shape="rect" id="node2" href="$class_technical__manager.html#aba0df90b5aa9389fd90816fe4652c2ad" title="Technical_manager::\lprepareTest" alt="" coords="196,49,339,90"/>
+<area shape="rect" id="node7" href="$class_technical__manager.html#aff72b09aef2f2b53f9bc6413242deab6" title="Technical_manager::\lcheckTest" alt="" coords="196,114,339,155"/>
+<area shape="rect" id="node8" href="$class_technical__manager.html#a3e52c05a672894682cf2d4ab69664c1e" title="Technical_manager::\lholdingInterview" alt="" coords="196,179,339,221"/>
+<area shape="rect" id="node9" href="$class_technical__manager.html#acee4360da537c12e758574e58c33481d" title="Technical_manager::\lgetTestForCandidate" alt="" coords="196,245,339,286"/>
+<area shape="rect" id="node3" href="$class_error.html#a047207c59d0f2bedd19256e011abb80e" title="Error::err" alt="" coords="387,56,460,83"/>
+<area shape="rect" id="node4" href="$class_error.html#a9f20c7656a23e4f4cf1fa600ced37421" title="Error::input" alt="" coords="540,5,627,32"/>
+<area shape="rect" id="node5" href="$class_error.html#a35ab6ad1cad16467c4817cdc8e3ebaea" title="Error::valOfCandidates" alt="" coords="508,56,659,83"/>
+<area shape="rect" id="node6" href="$class_error.html#a5d7c6b97cda36f85a426dd2032c242d3" title="Error::valOfWorkers" alt="" coords="516,107,651,133"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Resume::getExperience" name="Resume::getExperience">
+<area shape="rect" id="node2" href="$class_candidate.html#aa0d4d9afae45b7ce3a3808af2bfba228" title="Candidate::answerQuestion" alt="" coords="215,31,396,57"/>
+<area shape="rect" id="node3" href="$class_candidate.html#ab30f3859931c02d8cf69acb49a80c12e" title="Candidate::takeTest" alt="" coords="444,31,583,57"/>
+<area shape="rect" id="node4" href="$class_candidate.html#a50e84cbce900de9863aefb0f5f4a6f68" title="Candidate::getWork" alt="" coords="631,5,768,32"/>
+<area shape="rect" id="node5" href="$class_candidate.html#a61ad4ae35e7a3ce5e5b91204b55c0b55" title="Candidate::~Candidate" alt="" coords="816,31,971,57"/>
+</map>
